@@ -6,7 +6,7 @@ export default class StyleVariantA extends Component {
 
   render() {
     return (
-      <div className={styles.root}>
+      <div className={`${styles.root} ${this.props.className}`}>
         <p className={styles.text}>Style Variant A</p>
       </div>
     );

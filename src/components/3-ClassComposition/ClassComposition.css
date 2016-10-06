@@ -1,0 +1,11 @@
+.custom {
+  border-color: purple;
+}
+
+.customTwo {
+  border-color: yellow !important;
+}
+
+.customThree {
+  composes: borderGreen from './utils.css';
+}
